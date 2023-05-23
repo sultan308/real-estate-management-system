@@ -1,5 +1,5 @@
 require("dotenv").config();
-import connectToDatabase from "./helpers/db";
+import { connectToDatabase } from "./helpers/db";
 import createServer from "./helpers/server";
 
 const app = createServer();
